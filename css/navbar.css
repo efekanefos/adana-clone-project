@@ -1,0 +1,54 @@
+/*Navbar Start*/
+.navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1.2rem 2.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 99;
+}
+.navbar.light {
+  background-color: #fff;
+}
+.navbar__logoImg {
+  width: 14%;
+}
+.linkList {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0.2;
+  margin-left: auto;
+  margin-right: auto;
+}
+.linkList,
+.socialList {
+  display: flex;
+  list-style: none;
+}
+.linkList li,
+.socialList li {
+  margin: 0.5rem;
+  margin-right: 1.5rem;
+}
+.socialList li {
+  margin-right: 1rem;
+}
+.linkList li a,
+.socialList li a {
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.socialList i {
+  color: #fff;
+  font-size: 0.875rem;
+}
+/*Navbar End*/

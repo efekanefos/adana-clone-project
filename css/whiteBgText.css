@@ -1,0 +1,35 @@
+/*whiteBgText Start*/
+
+.whiteBgText {
+  background-color: #fff;
+
+  padding: 9rem 5rem;
+}
+.whiteBgText__line {
+  border-bottom: 1px solid #d50e25;
+  width: 2.5rem;
+  transform: rotate(90deg);
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.whiteBgText__parag {
+  font-size: 3rem;
+  line-height: 55px;
+  color: #232323;
+  font-weight: 500;
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
+}
+.whiteBgText__redText {
+  color: #c40003;
+  font-weight: 600;
+}
+.whiteBgText__logo {
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+/*whiteBgText End*/

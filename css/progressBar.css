@@ -1,0 +1,124 @@
+.progressBar {
+  background-color: #c40003;
+  padding: 2rem;
+  z-index: 0;
+}
+
+.progressBar__heading,
+.progressBar__subHeading {
+  color: #fff;
+  text-align: center;
+}
+.progressBar__heading {
+  font-size: 2.5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.progressBar__subHeading {
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+}
+
+.progressBar__barGroup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 58%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.progressBar__outerBar,
+.progressBar__middleBar,
+.progressBar__innerBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.1);
+  border-radius: 50%;
+}
+.progressBar__outerBar {
+  background-color: #d03335;
+  position: relative;
+  width: 4.2rem;
+  height: 4.2rem;
+  margin-bottom: 2rem;
+}
+
+.progressBar__middleBar {
+  background-color: #e38586;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.progressBar__innerBar {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.progressBar__rightLine {
+  width: 100%;
+  align-self: flex-start;
+  margin-top: 2rem;
+  height: 0.05rem;
+  opacity: 0.5;
+  background-color: #e38586;
+  z-index: 99;
+}
+.progressBar__barColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.progressBar__barColumn--heading,
+.progressBar__barColumn--parag {
+  text-align: center;
+  color: #fff;
+}
+.progressBar__barColumn--heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  width: 150%;
+}
+.progressBar__barColumn--parag {
+  font-size: 0.9rem;
+  width: 140%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 1.9rem;
+  height: 6rem;
+}
+.progressBar__writeUsBtn {
+  display: block;
+  width: 11rem;
+  outline: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  background-color: transparent;
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+  transition: all 0.5s;
+  font-weight: 500;
+  margin-bottom: 8rem;
+}
+.progressBar__writeUsBtn:hover {
+  transform: translateY(-0.4rem);
+  background-color: #fff;
+  color: #000;
+}

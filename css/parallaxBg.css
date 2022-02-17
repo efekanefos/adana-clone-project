@@ -1,0 +1,12 @@
+.parallaxBg {
+  background-image: url(../img/letter.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.grayBg {
+  background-color: #f7f7f7;
+  padding-bottom: 7rem;
+}
