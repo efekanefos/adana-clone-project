@@ -18,6 +18,7 @@
 }
 .navbar__logoImg {
   width: 14%;
+  cursor: pointer;
 }
 .linkList {
   display: flex;
@@ -45,10 +46,20 @@
   font-size: 0.875rem;
   color: #fff;
   font-weight: 500;
+  transition: all 0.5s;
+}
+.linkList li a:hover,
+.socialList li a:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .socialList i {
   color: #fff;
   font-size: 0.875rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.socialList i:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 /*Navbar End*/

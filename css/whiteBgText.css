@@ -2,7 +2,7 @@
 
 .whiteBgText {
   background-color: #fff;
-
+  position: relative;
   padding: 9rem 5rem;
 }
 .whiteBgText__line {
@@ -30,6 +30,17 @@
   width: 25%;
   margin: 0 auto;
   margin-top: 2rem;
+}
+.transparentHeading {
+  font-size: 9.625rem;
+  font-weight: 700;
+  color: #828282;
+  line-height: 9.625rem;
+  opacity: 0.15;
+  position: absolute;
+  bottom: -9.8rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*whiteBgText End*/

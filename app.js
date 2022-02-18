@@ -1,3 +1,4 @@
+AOS.init();
 document.querySelector(".addfiles").addEventListener("click", function (e) {
   e.preventDefault();
   document.querySelector("#requestForm__file").click();

@@ -43,6 +43,7 @@
   width: 4.2rem;
   height: 4.2rem;
   margin-bottom: 2rem;
+  transition: all 0.2s;
 }
 
 .progressBar__middleBar {
@@ -79,6 +80,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+.progressBar__barColumn:hover .progressBar__outerBar {
+  transform: scale(1.25);
 }
 .progressBar__barColumn--heading,
 .progressBar__barColumn--parag {
