@@ -2,7 +2,7 @@
 
 .heroSection {
   background-image: url(../img/hero.jpg);
-  background-position: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
